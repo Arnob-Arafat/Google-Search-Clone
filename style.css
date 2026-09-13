@@ -1,0 +1,52 @@
+html body{
+
+    background: #262323;
+    color: #ffffff;
+}
+
+@media(min-width: 684px){
+    .input-rows{
+        flex-direction: row;
+        align-items:center;
+    }
+    
+}
+.input-rows{
+    margin-top: 25px;
+    display: flex;
+}
+
+.submit-row{
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-button{
+    color: #202124; 
+    display: inline-block; 
+    vertical-align: middle; 
+    cursor: pointer;
+    font-family: Google Sans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.submit-text {
+    background: #a8c7fa;
+    padding: 11px 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    z-index: 0;
+    box-sizing: border-box;
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    text-transform: none;
+    text-align: center;
+}
+
